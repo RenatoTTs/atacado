@@ -33,7 +33,7 @@
                 </form>
                 </div>
             <div class=" span2">
-                <button class="btn btn-large btn-warning "><i class="icon-shopping-cart"></i></button>
+                <button class="btn btn-large btn-warning "><i class=" icon-search icon-white icon-shopping-cart "></i>Carrinho</button>
             </div>
             </div>
         </div>

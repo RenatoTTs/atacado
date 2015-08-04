@@ -21,17 +21,21 @@
 </head>
 <body>
     <header class="topo">
-        <div class="container debug">
-            <div class="debug span2"><h1 class="logo">Atacado</h1></div>
-                <div class="debug span8">
+        <div class="container">
+            <div class="row">
+            <div class=" span2"><h1 class="logo">Atacado</h1></div>
+                <div class=" span8">
                 <form class="form-search">
                     <div class="input-append">
-                       <input type="text" class="span2 search-query">
-                       <button type="submit" class="btn">Busca</button>
+                       <input type="text" class="span6 search-query">
+                       <button type="submit" class="btn btn-success">Busca</button>
                     </div>
                 </form>
                 </div>
-            <div class="debug span2">Carrinho</div>
+            <div class=" span2">
+                <button class="btn btn-large btn-warning "><i class="icon-shopping-cart"></i></button>
+            </div>
+            </div>
         </div>
     </header>
 </body>

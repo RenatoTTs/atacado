@@ -1,6 +1,12 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 .debug{
     border:solid red 1px;
 }
 header.topo{
      background-color: #018cc1;
+}
+h1.logo{
+    color: #fff;
 }

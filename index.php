@@ -10,6 +10,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
 <link href="css/estilo.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
 
 
 <!-- importação do Java Script -->
@@ -21,7 +22,16 @@
 <body>
     <header class="topo">
         <div class="container debug">
-            Topo
+            <div class="debug span2"><h1 class="logo">Atacado</h1></div>
+                <div class="debug span8">
+                <form class="form-search">
+                    <div class="input-append">
+                       <input type="text" class="span2 search-query">
+                       <button type="submit" class="btn">Busca</button>
+                    </div>
+                </form>
+                </div>
+            <div class="debug span2">Carrinho</div>
         </div>
     </header>
 </body>
